@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10;
+    background: url('https://img.freepik.com/premium-photo/colorful-handdrawn-calculators-geometric-shapes-pattern_184076-12517.jpg?w=740') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+  
+  .calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    max-width: 300px;
+    padding: 20px;
+    background-color: rgba(175, 235, 230, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(60, 156, 194, 0.2);
+  }
+  
+  .display {
+    grid-column: 1 / -1;
+    text-align: right;
+    padding: 10px;
+    font-size: 24px;
+    background-color: #e5e5e5;
+    border: 5px solid #092237;
+    border-radius: 10px;
+  }
+  
+  .display2 {
+    grid-column: 1 / -1;
+    text-align: left;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #361b74;
+    border: 1px solid #691647;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    padding: 10px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color: #437dc9;
+    border: 1px solid #0c1550;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #edf05b;
+  }
+  
+  .about {
+    text-align: center;
+  }
+  
